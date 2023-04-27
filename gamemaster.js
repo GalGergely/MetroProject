@@ -104,6 +104,8 @@ console.log(deck);
 
 body.style.backgroundColor="#A5B1B1";
 canvas.style.backgroundColor="#A5B1B1";
+canvas.style.width = 1400;
+canvas.style.height = 800;
 
 //mouse listener
 function getMousePosition(canvas, event) {
